@@ -1,0 +1,61 @@
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        background-color: white;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .top-player-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .top-blog-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .top-player-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .top-blog-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
